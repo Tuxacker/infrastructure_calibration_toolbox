@@ -1,0 +1,58 @@
+{
+  "intersection_spu":
+  {
+    "devices":
+    {
+      "camera_spu_0_1":
+      {
+        "type": "camera",
+        "description": "SPU0-1 camera",
+        "stream": "image",
+        "focal_length": [ 2175.81305635612, 2172.02747940786 ],
+        "resolution": [ 1920, 1200 ], # (horiz[px], vert[px])
+        "optical_center": [ 977.445500508540, 608.508817059890 ], # (horiz[px], vert[px])
+        "skew": 0.0,
+        "radial_dist": [ -0.233091815041654, 0.502003095403463, -1.05429450425328 ],
+        "tangent_dist": [ -0.000456061425501390, 0.000926309416916529 ], # (horiz(kc(3), vert(kc(4))
+        "alignment": [
+          [ 1, 0, 0, 0 ],
+          [ 0, 1, 0, 0 ],
+          [ 0, 0, 1, 0 ],
+          [ 0, 0, 0, 1 ]
+        ],
+        "fov_polygon": [ #x=Easting, y=Northing, --no y, loop need not be closed (UTM)
+          [ -1, 90 ],
+          [ -15, 90 ],
+          [ -15, 14 ],
+          [ -1, 14 ]
+        ],
+      },
+
+      "camera_spu_0_2":
+      {
+        "type": "camera",
+        "description": "SPU0-2 camera",
+        "stream": "image",
+        "focal_length": [ 2184.07123952842, 2192.24207035891 ],
+        "resolution": [ 1920, 1200 ], # (horiz[px], vert[px])
+        "optical_center": [ 997.684150627927, 605.277967222865 ], # (horiz[px], vert[px])
+        "skew": 0.0,
+        "radial_dist": [ -0.197181103394307, 0.244388633037016, -0.165220489201964 ],
+        "tangent_dist": [ 0.00179917182439276, 0.00448240395802998 ], # (horiz(kc(3), vert(kc(4))
+        "alignment": [
+          [ 1, 0, 0, 0 ],
+          [ 0, 1, 0, 0 ],
+          [ 0, 0, 1, 0 ],
+          [ 0, 0, 0, 1 ]
+        ],
+        "fov_polygon": [ #x=Easting, y=Northing, --no y, loop need not be closed (UTM)
+          [ 15, -35 ],
+          [ 70, -45 ],
+          [ 70, -25 ],
+          [ 15, -15 ]
+        ],
+      }
+    }
+  }
+}
+
